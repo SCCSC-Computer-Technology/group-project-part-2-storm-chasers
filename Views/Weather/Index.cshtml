@@ -1,0 +1,25 @@
+﻿@model StormChasersGroupProject2.Models.WeatherModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast for @Model.City</h1>
+        <div class="weather-info">
+            <img src="@Model.WeatherIcon" alt="@Model.PrecipType" />
+            <p>Temperature: @Model.Temperature °F</p>
+            <p>Humidity: @Model.HumidityPercent</p>
+            <p>Wind Speed: @Model.WindSpeed</p>
+            <p>Precipitaion: @Model.PrecipType</p>
+            <p>Precipitation Percent: @Model.PrecipPercent</p>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>

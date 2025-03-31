@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\StormChasersGroupProject2.props" />
+</Project>

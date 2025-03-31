@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\source\\repos\\stormchasersgroupproject2\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\source\\repos\\stormchasersgroupproject2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\source\\repos\\stormchasersgroupproject2\\views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\source\\repos\\stormchasersgroupproject2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\source\\repos\\stormchasersgroupproject2\\models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:36:10.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Views\\Weather\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Weather\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Views\\Weather\\Index.cshtml",
+              "RelativeToolTip": "Views\\Weather\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T07:27:41.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-31T07:13:46.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAqqowwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:38:08.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Models\\WeatherModel.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\Models\\WeatherModel.cs",
+              "RelativeToolTip": "Models\\WeatherModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:30:55.149Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
