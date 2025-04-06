@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\StormChasersGroupProject2.csproj": {}
+    "C:\\Users\\alyss\\OneDrive\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\StormChasersGroupProject2.csproj": {
+    "C:\\Users\\alyss\\OneDrive\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\StormChasersGroupProject2.csproj",
+        "projectUniqueName": "C:\\Users\\alyss\\OneDrive\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj",
         "projectName": "StormChasersGroupProject2",
-        "projectPath": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\StormChasersGroupProject2.csproj",
+        "projectPath": "C:\\Users\\alyss\\OneDrive\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj",
         "packagesPath": "C:\\Users\\alyss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alyss\\source\\repos\\StormChasersGroupProject2\\obj\\",
+        "outputPath": "C:\\Users\\alyss\\OneDrive\\Documents\\GitHub\\group-project-part-2-storm-chasers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

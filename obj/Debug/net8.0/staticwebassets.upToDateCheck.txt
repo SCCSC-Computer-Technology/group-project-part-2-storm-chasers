@@ -1,5 +1,7 @@
+wwwroot\cloudyicon.png
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\hailicon.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -58,3 +60,11 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\partlycloudyicon.png
+wwwroot\rainyicon.png
+wwwroot\snowyicon.png
+wwwroot\sunnyicon.png
+wwwroot\thunderstormicon.png
+wwwroot\tornadoicon.png
+wwwroot\windyicon.png
+wwwroot\wintrymixicon.png
