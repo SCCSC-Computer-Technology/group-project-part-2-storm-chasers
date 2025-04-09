@@ -19,7 +19,12 @@
             <p>Conditions: @Model.PrecipType</p>
             <p>Precipitation Percent: @Model.PrecipPercent%</p>
             <p></p>
+            <form method="post" action="/">
+                <input name="city" value="" placeholder="@Model.City"/>
+                <input type="submit" />
+            </form>
         </div>
+        
     </div>
 </body>
 </html>
