@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\colin\\source\\repos\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj": {}
+    "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\colin\\source\\repos\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj": {
+    "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\colin\\source\\repos\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj",
+        "projectUniqueName": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj",
         "projectName": "StormChasersGroupProject2",
-        "projectPath": "C:\\Users\\colin\\source\\repos\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj",
-        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\colin\\source\\repos\\group-project-part-2-storm-chasers-main\\obj\\",
+        "projectPath": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj",
+        "packagesPath": "C:\\Users\\Amajyah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amajyah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,13 +50,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFramework.SqlServer": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[9.0.3, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[8.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -74,6 +92,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -82,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
