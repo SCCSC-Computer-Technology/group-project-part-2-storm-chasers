@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,100 +30,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T17:38:49.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T17:38:45.548Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD0AAAAHAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-21T21:51:00.181Z",
+              "WhenOpened": "2025-04-23T21:56:53.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAjwFcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T20:40:38.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAtwBQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T07:36:10.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T21:11:57.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T21:12:08.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T20:38:34.642Z"
+              "WhenOpened": "2025-04-23T21:50:09.261Z",
+              "EditorCaption": ""
             }
           ]
         }
