@@ -1,9 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StormChasersGroupProject2.Models;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace StormChasersGroupProject2.Controllers
 {
@@ -17,63 +17,109 @@ namespace StormChasersGroupProject2.Controllers
             _httpClient = httpClient;
         }
 
-        // Index action to fetch weather data from WeatherAPI.com
-        public async Task<IActionResult> Index()
+        // Index action to fetch weather data from WeatherAPI.com (GET)
+        public async Task<IActionResult> Index() // Default city is Spartanburg
         {
             string city = "Spartanburg";
-            // Define the API endpoint and the request URL
-            var url = $"https://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}";
+            // Define the API endpoint and the request URL for current weather
+            var currentWeatherUrl = $"https://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}";
+            var currentResponse = await _httpClient.GetStringAsync(currentWeatherUrl);
+            var currentWeatherData = JsonConvert.DeserializeObject<dynamic>(currentResponse);
 
-            // Make the HTTP request and retrieve the weather data as a string
-            var response = await _httpClient.GetStringAsync(url);
-
-            // Deserialize the JSON response into a dynamic object
-            var weatherData = JsonConvert.DeserializeObject<dynamic>(response);
-
-            // Create a WeatherModel instance and populate it with data from the API response
+            // Create a WeatherModel instance for the current weather
             var weather = new WeatherModel
             {
-                City = weatherData.location.name,
-                Temperature = weatherData.current.temp_f,
-                HumidityPercent = weatherData.current.humidity,
-                WindSpeed = weatherData.current.wind_mph,
-                PrecipType = weatherData.current.condition.text, // Rain, Sunny, etc.
-                PrecipPercent = weatherData.current.precip_in,
-                WeatherIcon = weatherData.current.condition.icon
+                City = currentWeatherData.location.name,
+                Temperature = currentWeatherData.current.temp_f,
+                HumidityPercent = currentWeatherData.current.humidity,
+                WindSpeed = currentWeatherData.current.wind_mph,
+                PrecipType = currentWeatherData.current.condition.text, // Rain, Sunny, etc.
+                PrecipPercent = currentWeatherData.current.precip_in,
+                WeatherIcon = currentWeatherData.current.condition.icon
             };
 
-            // Pass the populated WeatherModel to the view
-            return View(weather);
+            // Define the API endpoint and the request URL for the 7-day forecast
+            var forecastUrl = $"https://api.weatherapi.com/v1/forecast.json?key={_apiKey}&q={city}&days=7";
+            var forecastResponse = await _httpClient.GetStringAsync(forecastUrl);
+            var forecastData = JsonConvert.DeserializeObject<dynamic>(forecastResponse);
+
+            // Create a list of WeatherForecastModel to hold the forecast data
+            var forecast = new List<WeatherForecastModel>();
+            foreach (var day in forecastData.forecast.forecastday)
+            {
+                forecast.Add(new WeatherForecastModel
+                {
+                    Date = day.date,
+                    MaxTemp = day.day.maxtemp_f,
+                    MinTemp = day.day.mintemp_f,
+                    Condition = day.day.condition.text,
+                    Icon = day.day.condition.icon,
+                    PrecipPercent = day.day.daily_chance_of_rain
+                });
+            }
+
+            // Create a WeatherViewModel to pass current weather and forecast to the view
+            var viewModel = new WeatherViewModel
+            {
+                CurrentWeather = weather,
+                Forecast = forecast
+            };
+
+            return View(viewModel);
         }
+
+        // POST action for city search (POST method should accept the city name)
         [HttpPost]
         public async Task<IActionResult> Index(string city)
         {
-            if (city == null) city = "Spartanburg";
+            if (string.IsNullOrWhiteSpace(city))
+            {
+                city = "Spartanburg";
+            }
 
-            // Define the API endpoint and the request URL
-            var url = $"https://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}";
+            // Get current weather
+            var currentWeatherUrl = $"https://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}";
+            var currentResponse = await _httpClient.GetStringAsync(currentWeatherUrl);
+            var currentWeatherData = JsonConvert.DeserializeObject<dynamic>(currentResponse);
 
-            // Make the HTTP request and retrieve the weather data as a string
-            var response = await _httpClient.GetStringAsync(url);
-
-            // Deserialize the JSON response into a dynamic object
-            var weatherData = JsonConvert.DeserializeObject<dynamic>(response);
-
-            // Create a WeatherModel instance and populate it with data from the API response
             var weather = new WeatherModel
             {
-                City = weatherData.location.name,
-                Temperature = weatherData.current.temp_f,
-                HumidityPercent = weatherData.current.humidity,
-                WindSpeed = weatherData.current.wind_mph,
-                PrecipType = weatherData.current.condition.text, // Rain, Sunny, etc.
-                PrecipPercent = weatherData.current.precip_in,
-                WeatherIcon = weatherData.current.condition.icon
+                City = currentWeatherData.location.name,
+                Temperature = currentWeatherData.current.temp_f,
+                HumidityPercent = currentWeatherData.current.humidity,
+                WindSpeed = currentWeatherData.current.wind_mph,
+                PrecipType = currentWeatherData.current.condition.text,
+                PrecipPercent = currentWeatherData.current.precip_in,
+                WeatherIcon = currentWeatherData.current.condition.icon
             };
 
-            // Pass the populated WeatherModel to the view
-            return View(weather);
+            // Get 7-day forecast
+            var forecastUrl = $"https://api.weatherapi.com/v1/forecast.json?key={_apiKey}&q={city}&days=7";
+            var forecastResponse = await _httpClient.GetStringAsync(forecastUrl);
+            var forecastData = JsonConvert.DeserializeObject<dynamic>(forecastResponse);
+
+            var forecast = new List<WeatherForecastModel>();
+            foreach (var day in forecastData.forecast.forecastday)
+            {
+                forecast.Add(new WeatherForecastModel
+                {
+                    Date = day.date,
+                    MaxTemp = day.day.maxtemp_f,
+                    MinTemp = day.day.mintemp_f,
+                    Condition = day.day.condition.text,
+                    Icon = day.day.condition.icon,
+                    PrecipPercent = day.day.daily_chance_of_rain
+                });
+            }
+
+            var viewModel = new WeatherViewModel
+            {
+                CurrentWeather = weather,
+                Forecast = forecast
+            };
+
+            return View(viewModel);
         }
+
     }
 }
-

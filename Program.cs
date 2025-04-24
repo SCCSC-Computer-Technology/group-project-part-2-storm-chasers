@@ -27,7 +27,7 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-    DbInitializer.Initialize(services, userManager).Wait();
+    //DbInitializer.Initialize(services, userManager).Wait();
 }
 
 // Configure the HTTP request pipeline.

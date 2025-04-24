@@ -17,45 +17,43 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StormChasersGroupProject2
 build_property.RootNamespace = StormChasersGroupProject2
-build_property.ProjectDir = C:\Users\Amajyah\OneDrive\Documents\Github Projects\group-project-part-2-storm-chasers\
+build_property.ProjectDir = C:\Users\NotRyan\Downloads\group-project-part-2-storm-chasers-main (2)\group-project-part-2-storm-chasers-main\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Amajyah\OneDrive\Documents\Github Projects\group-project-part-2-storm-chasers
+build_property.MSBuildProjectDirectory = C:\Users\NotRyan\Downloads\group-project-part-2-storm-chasers-main (2)\group-project-part-2-storm-chasers-main
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/Account/Login.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/Account/Register.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/Shared/Error.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/Weather/Index.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/Weather/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/_ViewImports.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/_ViewStart.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Amajyah/OneDrive/Documents/Github Projects/group-project-part-2-storm-chasers/Views/Shared/_Layout.cshtml]
+[C:/Users/NotRyan/Downloads/group-project-part-2-storm-chasers-main (2)/group-project-part-2-storm-chasers-main/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iibhjpw0ij
