@@ -1,21 +1,29 @@
-html, body {
-    height: 100%;
-    margin: 0;
+body {
+    font-family: 'Agency FB';
+    background-color: #77bcee;
+    font-size: 1.4rem;
 }
 
 .container {
-    min-height: 100%;  /* Ensures that the content takes up at least the full height of the page */
-    display: flex;
-    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-main {
-    flex: 1;  /* This ensures that the main content will take up all available space and push the footer to the bottom */
-}
-
-footer {
-    background-color: #f1f1f1;
-    padding: 20px 0;
+.weather-info {
     text-align: center;
-    position: relative;
+    margin-top: 20px;
+}
+
+    .weather-info img {
+        width: 100px;
+        height: 100px;
+    }
+
+h1 {
+    color: #333;
+    text-align: center;
 }

@@ -28,10 +28,7 @@ namespace StormChasersGroupProject2.Data
 
                 await userManager.CreateAsync(user, "Test@1234");
 
-                
-
             }
         }
-
     }
 }

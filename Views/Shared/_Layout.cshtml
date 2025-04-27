@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - StormChasersGroupProject2</title>
+    <title>@ViewData["Title"] - Storm ChasersGroupProject2</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/StormChasersGroupProject2.styles.css" asp-append-version="true" />
@@ -19,7 +19,7 @@
                 </div>
 
                 <!-- Navbar brand -->
-                <a class="navbar-brand ms-3" asp-area="" asp-controller="" asp-action="Index">StormChasersGroupProject2</a>
+                <a class="navbar-brand ms-3" asp-area="" asp-controller="" asp-action="Index">Storm Chasers Forecasting</a>
 
                 <!-- Toggler for mobile view -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
@@ -37,6 +37,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">Privacy</a>
                         </li>
                     </ul>
+                    <partial name="_loginpartial" />
                 </div>
             </div>
         </nav>
@@ -44,7 +45,16 @@
 
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            <div class="row">
+                <!-- Main body -->
+                <div class="col-md-9">
+                    @RenderBody()
+                </div>
+                <!-- Sidebar for favorites -->
+                <div class="col-md-3" id="favoritesSidebar">
+                    @await Html.PartialAsync("_FavoriteCitiesPartial", (FavoriteCitiesViewModel)ViewData["FavoriteCitiesModel"])
+                </div>
+            </div>
         </main>
     </div>
 
@@ -58,5 +68,29 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        $(document).ready(function() {
+            $(document).on('submit', 'form.ajax-form', function(e) {
+                e.preventDefault();
+
+                var form = $(this);
+                var url = form.attr("action");
+                var data = form.serialize();
+
+                $.post(url, data)
+                    .done(function () {
+                        // After successful favorite/unfavorite
+                        $.get("/Weather/FavoritesSidebar", function (partialViewHtml) {
+                            $("#favoritesSidebar").html(partialViewHtml);
+                        });
+                    })
+                    .fail(function () {
+                        alert("Error updating favorites. Please try again.");
+                    });
+            });
+        });
+    </script>
+
 </body>
 </html>

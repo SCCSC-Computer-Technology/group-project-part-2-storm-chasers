@@ -2,11 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using StormChasersGroupProject2.Models;
 
-namespace StormChasersGroupProject2.Data
+namespace StormChasersGroupProject2.Data;
+
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        : base(options)
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        { }
     }
 }
