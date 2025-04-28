@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:50:43.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherController.cs",
-              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
-              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
-              "RelativeToolTip": "Controllers\\WeatherController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAowHIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:38:40.343Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -65,6 +39,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:50:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:38:40.343Z",
+              "EditorCaption": ""
             }
           ]
         }
