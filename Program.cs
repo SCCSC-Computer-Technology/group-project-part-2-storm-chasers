@@ -6,6 +6,10 @@ using StormChasersGroupProject2.Models;
 using StormChasersGroupProject2.Data;
 using System.Net.Http.Headers;
 
+//CPT 206 - Group Project 2
+//Storm Chasers Weather App
+//Colin Gaffney, Ryan Chang, Alyssa Walker, Amajyah Reeder
+
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -18,12 +22,12 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
 
 builder.Services.AddHttpClient();
 
-// Add services to the container.
+//add services to the containers
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Seed the database with test data.
+//test data for the database
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -31,11 +35,10 @@ using (var scope = app.Services.CreateScope())
     DbInitializer.Initialize(services, userManager).Wait();
 }
 
-// Configure the HTTP request pipeline.
+//cnfigure the HTTP request pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

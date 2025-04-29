@@ -1,14 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\",
+  "WorkspaceRootPath": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\weathermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\weatherforecastmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\weatherforecastmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\favoritecitiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\favoritecitiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\alyss\\onedrive\\desktop\\group project 2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Bookmark",
@@ -38,29 +86,215 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T22:50:43.235Z"
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-29T06:48:43.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:43.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\WeatherViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherViewModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\WeatherViewModel.cs",
+              "RelativeToolTip": "Models\\WeatherViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:37.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\WeatherModel.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\WeatherModel.cs",
+              "RelativeToolTip": "Models\\WeatherModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:34.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:30.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\WeatherForecastModel.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherForecastModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\WeatherForecastModel.cs",
+              "RelativeToolTip": "Models\\WeatherForecastModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:28.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:26.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FavoriteCitiesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\FavoriteCitiesViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\FavoriteCitiesViewModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\FavoriteCitiesViewModel.cs",
+              "RelativeToolTip": "Models\\FavoriteCitiesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:25.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:23.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:11.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:47:10.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:35:59.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEoAAAAAAABGYu8bwEIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:35:50.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:50:43.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "WeatherController.cs",
-              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
-              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\alyss\\OneDrive\\Desktop\\Group Project 2\\Controllers\\WeatherController.cs",
               "RelativeToolTip": "Controllers\\WeatherController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAABzbzwYwKkAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T22:38:40.343Z",
               "EditorCaption": ""

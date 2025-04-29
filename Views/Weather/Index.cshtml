@@ -4,6 +4,13 @@
     ViewData["Title"] = "Weather Forecast";
     Layout = "_Layout";
 }
+@* 
+    Main weather forecast view that displays:
+    - Current weather conditions
+    - 7-day forecast
+    - City search with autocomplete
+    - Favorite city functionality
+*@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +23,7 @@
             margin-bottom: 30px;
         }
 
+        /* Container for the 7-day forecast cards */
         .forecast-container {
             display: flex;
             justify-content: space-around;
@@ -23,6 +31,7 @@
             margin-top: 20px;
         }
 
+        /* Individual forecast day card */
         .forecast-item {
             text-align: center;
             width: 120px;
@@ -38,7 +47,7 @@
             margin: 5px 0;
         }
 
-        /* Styling for smaller screens */
+        /* Responsive design for smaller screens */
         media screen and (max-width: 768px) {
             .forecast-container {
                 flex-direction: column;
@@ -58,32 +67,88 @@
         <p>Conditions: @Model.CurrentWeather.PrecipType</p>
         <p>Precipitation Percent: @Model.CurrentWeather.PrecipPercent%</p>
         <p></p>
+        @* City search form with autocomplete *@
         <form method="get" asp-action="Index">
-            <input name="city" value="" placeholder="@Model.CurrentWeather.City" />
+            <div class="search-container">
+                <input name="city" id="citySearch" value="" placeholder="@Model.CurrentWeather.City" class="form-control" />
+                <div id="suggestions" class="suggestions-dropdown"></div>
+            </div>
             <button type="submit" class="btn btn-primary">Search</button>
         </form>
+        @* Form to add current city to favorites *@
         <form method="post" asp-action="FavoriteCity">
             <input type="hidden" name="city" value="@Model.CurrentWeather.City" />
             <button type="submit" class="btn btn-warning">Favorite</button>
         </form>
-
     </div>
 
-    <!-- 7-Day Forecast -->
-        <h2>Upcoming Forecast</h2>
-        <div class="forecast-container">
-            @foreach (var day in Model.Forecast)
-            {
-                <div class="forecast-item">
-                    <p><strong>@DateTime.Parse(day.Date).ToString("dddd")</strong></p>
-                    <p><strong>@DateTime.Parse(day.Date).ToString("MMMM d, yyyy")</strong></p>
-                    <img src="https:@day.Icon" alt="@day.Condition" />
-                    <p>@day.Condition</p>
-                    <p>Max: @day.MaxTemp °F</p>
-                    <p>Min: @day.MinTemp °F</p>
-                    <p>Precip: @day.PrecipPercent%</p>
-                </div>
-            }
-        </div>
+    @* 7-Day Forecast Section *@
+    <h2>Upcoming Forecast</h2>
+    <div class="forecast-container">
+        @foreach (var day in Model.Forecast)
+        {
+            <div class="forecast-item">
+                <p><strong>@DateTime.Parse(day.Date).ToString("dddd")</strong></p>
+                <p><strong>@DateTime.Parse(day.Date).ToString("MMMM d, yyyy")</strong></p>
+                <img src="https:@day.Icon" alt="@day.Condition" />
+                <p>@day.Condition</p>
+                <p>Max: @day.MaxTemp °F</p>
+                <p>Min: @day.MinTemp °F</p>
+                <p>Precip: @day.PrecipPercent%</p>
+            </div>
+        }
+    </div>
 </div>
+
+@section Scripts {
+    @* JavaScript for city search autocomplete functionality *@
+    <script>
+        $(document).ready(function() {
+            var searchTimeout;
+            var $searchInput = $('#citySearch');
+            var $suggestions = $('#suggestions');
+
+            // Handle input changes with debouncing
+            $searchInput.on('input', function() {
+                clearTimeout(searchTimeout);
+                var query = $(this).val();
+
+                if (query.length < 2) {
+                    $suggestions.hide();
+                    return;
+                }
+
+                // Fetch suggestions after 300ms delay
+                searchTimeout = setTimeout(function() {
+                    $.get('/Weather/GetCitySuggestions', { query: query }, function(cities) {
+                        $suggestions.empty();
+                        
+                        if (cities.length > 0) {
+                            cities.forEach(function(city) {
+                                $('<div>')
+                                    .addClass('suggestion-item')
+                                    .text(city)
+                                    .on('click', function() {
+                                        $searchInput.val(city);
+                                        $suggestions.hide();
+                                    })
+                                    .appendTo($suggestions);
+                            });
+                            $suggestions.show();
+                        } else {
+                            $suggestions.hide();
+                        }
+                    });
+                }, 300);
+            });
+
+            // Hide suggestions when clicking outside
+            $(document).on('click', function(e) {
+                if (!$(e.target).closest('.search-container').length) {
+                    $suggestions.hide();
+                }
+            });
+        });
+    </script>
+}
 

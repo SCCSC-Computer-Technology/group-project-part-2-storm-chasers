@@ -23,8 +23,8 @@ namespace StormChasersGroupProject2.Controllers
             _signInManager = signInManager;
         }
 
-        // Index action to fetch weather data from WeatherAPI.com
-
+        //main action to display current weather and forecast
+        //set default to spartanburg if no city is entered
         [HttpGet]
         public async Task<IActionResult> Index(string city)
         {
@@ -33,12 +33,12 @@ namespace StormChasersGroupProject2.Controllers
                 city = "Spartanburg";
             }
 
-            // Get current weather
+            //get current weather
             var currentWeatherUrl = $"https://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}";
             var currentResponse = await _httpClient.GetStringAsync(currentWeatherUrl);
             var currentWeatherData = JsonConvert.DeserializeObject<dynamic>(currentResponse);
 
-            // Create a WeatherModel instance and populate it with data from the API response
+            //create a WeatherModel instance and populate it with data from the api response
             var weather = new WeatherModel
             {
                 City = currentWeatherData.location.name,
@@ -52,7 +52,7 @@ namespace StormChasersGroupProject2.Controllers
 
             ViewData["FavoriteCitiesModel"] = await GetFavoriteCitiesWeather();
 
-            // Get 7-day forecast
+            //get 7 day forecast
             var forecastUrl = $"https://api.weatherapi.com/v1/forecast.json?key={_apiKey}&q={city}&days=7";
             var forecastResponse = await _httpClient.GetStringAsync(forecastUrl);
             var forecastData = JsonConvert.DeserializeObject<dynamic>(forecastResponse);
@@ -76,20 +76,22 @@ namespace StormChasersGroupProject2.Controllers
                 CurrentWeather = weather,
                 Forecast = forecast
             };
-            // Pass the populated WeatherModel to the view
+            //pass the weather model to the view
             return View(viewModel);
         }
 
+        //handles POST requests for city search
         [HttpPost]
         public IActionResult IndexPost(string city)
         {
             if (string.IsNullOrWhiteSpace(city))
                 city = "Spartanburg";
 
-            // Redirects to Get
+            //redirects to get
             return RedirectToAction("Index", new { city });
         }
 
+        // gets weather data for all of the user's favorite cities
         private async Task<FavoriteCitiesViewModel> GetFavoriteCitiesWeather()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -103,6 +105,7 @@ namespace StormChasersGroupProject2.Controllers
                 var response = await _httpClient.GetStringAsync(url);
                 var weatherData = JsonConvert.DeserializeObject<dynamic>(response);
 
+                //all of the data we want to use in our model
                 var weather = new WeatherModel
                 {
                     City = weatherData.location.name,
@@ -120,6 +123,7 @@ namespace StormChasersGroupProject2.Controllers
             return model;
         }
 
+        //adds a city to favorites
         [HttpPost]
         public async Task<IActionResult> FavoriteCity(string city)
         {
@@ -137,6 +141,7 @@ namespace StormChasersGroupProject2.Controllers
             return RedirectToAction("Index", new { city });
         }
 
+        //removes a city from favorites
         [HttpPost]
         public async Task<IActionResult> RemoveFavoriteCity(string city)
         {
@@ -154,11 +159,27 @@ namespace StormChasersGroupProject2.Controllers
             return Ok();
         }
 
+       //shows favorites in partial view
         [HttpGet]
         public async Task<IActionResult> FavoritesSidebar()
         {
             var model = await GetFavoriteCitiesWeather();
             return PartialView("_FavoriteCitiesPartial", model);
+        }
+
+        //shows city suggestions based on what is entered in the search box
+        [HttpGet]
+        public async Task<IActionResult> GetCitySuggestions(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+                return Json(new List<string>());
+
+            var url = $"https://api.weatherapi.com/v1/search.json?key={_apiKey}&q={query}";
+            var response = await _httpClient.GetStringAsync(url);
+            var suggestions = JsonConvert.DeserializeObject<List<dynamic>>(response);
+
+            var cities = suggestions.Select(s => s.name.ToString()).ToList();
+            return Json(cities);
         }
     }
 }

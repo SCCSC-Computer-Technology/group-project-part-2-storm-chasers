@@ -13,16 +13,13 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    //displays home page
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
+    //displays error page
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

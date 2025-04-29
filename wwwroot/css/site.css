@@ -1,9 +1,11 @@
+/* Global styles */
 body {
     font-family: 'Agency FB';
     background-color: #77bcee;
     font-size: 1.4rem;
 }
 
+/* Main container styling */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -13,17 +15,48 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Weather information section */
 .weather-info {
     text-align: center;
     margin-top: 20px;
 }
 
-    .weather-info img {
-        width: 100px;
-        height: 100px;
-    }
+.weather-info img {
+    width: 100px;
+    height: 100px;
+}
 
+/* Page title */
 h1 {
     color: #333;
     text-align: center;
+}
+
+/* City search container and dropdown */
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.suggestions-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
 }

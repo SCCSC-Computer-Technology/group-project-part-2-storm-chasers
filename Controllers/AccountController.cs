@@ -7,7 +7,6 @@ namespace StormChasersGroupProject2.Controllers
 {
     public class AccountController : Controller
     {
-
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
 
@@ -17,12 +16,14 @@ namespace StormChasersGroupProject2.Controllers
             _userManager = userManager;
         }
 
+        //displays login form
         [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
 
+        //action for login attempts
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
@@ -46,6 +47,8 @@ namespace StormChasersGroupProject2.Controllers
 
             return View(model);
         }
+        
+        //action for logout
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
@@ -54,12 +57,14 @@ namespace StormChasersGroupProject2.Controllers
             return RedirectToAction("Login", "Account");
         }
 
+        //displays registration form
         [HttpGet]
         public IActionResult Register()
         {
             return View();
         }
 
+        //action for registering new users
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(RegisterViewModel model)

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StormChasersGroupProject2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2de863d27b6702bd7b5b699b94ce4c8c6c6303db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8241907c15dbc1041f2b010b650cb20c8665ad7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StormChasersGroupProject2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StormChasersGroupProject2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
