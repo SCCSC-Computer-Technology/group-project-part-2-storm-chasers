@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NotRyan\\Downloads\\group-project-part-2-storm-chasers-main (2)\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj": {}
+    "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NotRyan\\Downloads\\group-project-part-2-storm-chasers-main (2)\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj": {
+    "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NotRyan\\Downloads\\group-project-part-2-storm-chasers-main (2)\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj",
+        "projectUniqueName": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj",
         "projectName": "StormChasersGroupProject2",
-        "projectPath": "C:\\Users\\NotRyan\\Downloads\\group-project-part-2-storm-chasers-main (2)\\group-project-part-2-storm-chasers-main\\StormChasersGroupProject2.csproj",
-        "packagesPath": "C:\\Users\\NotRyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NotRyan\\Downloads\\group-project-part-2-storm-chasers-main (2)\\group-project-part-2-storm-chasers-main\\obj\\",
+        "projectPath": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\StormChasersGroupProject2.csproj",
+        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\NotRyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,37 +38,37 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFramework.SqlServer": {
-              "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[8.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )"
-            },
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[8.0.14, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\",
+  "WorkspaceRootPath": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|c:\\users\\amajyah\\onedrive\\documents\\github projects\\group-project-part-2-storm-chasers\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E37FA75-3BA4-49DF-86C7-6AE405B19071}|StormChasersGroupProject2.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|c:\\users\\colin\\documents\\github\\group-project-part-2-storm-chasers\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75F373C-52EB-4082-AEE8-3D60116067E5}|StormChasersGroupProject2.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,40 +18,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T21:56:53.44Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Amajyah\\OneDrive\\Documents\\Github Projects\\group-project-part-2-storm-chasers\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAjwFcAAAABAAAAAAAAAA==",
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T21:50:09.261Z",
+              "WhenOpened": "2025-04-27T22:50:43.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\colin\\Documents\\GitHub\\group-project-part-2-storm-chasers\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwHIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:38:40.343Z",
               "EditorCaption": ""
             }
           ]
